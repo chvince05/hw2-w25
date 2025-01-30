@@ -2,15 +2,10 @@ body {
     font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 40%;
-    height: 50px;
-    padding: 2px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 h1{
@@ -28,10 +23,14 @@ p{
     font-size: 24px;
     padding-top: 10px; 
     padding-left: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
 }
 
 img{
     width: 250px;
+    height: auto;
+    display: block;
     margin: auto;
     border: 10px dashed #FFFFFF;
 }
@@ -64,7 +63,11 @@ div{
     border-top: 2px solid;
 }
 
-.blue h2,p {
+.blue h2 {
+    color: #C4C4C4;
+}
+
+.blue p {
     color: #C4C4C4;
 }
 
@@ -81,7 +84,7 @@ div{
 }
 
 .green {
-    background-color:#00EB00;
+    background-color:#00D800;
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid;
@@ -90,14 +93,16 @@ div{
 
 footer{
     background: linear-gradient(#000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%); 
-    border: 5px #FFFFFF;
+    border: 5px solid #FFFFFF;
 
 }
 
 .footer p{
+    font-size: 20px;
     text-align: right;
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    padding-left: 0;
 
 }
