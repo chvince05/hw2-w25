@@ -49,7 +49,7 @@ div{
     line-height: 2;
 }
 
-.red div{
+.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -57,7 +57,7 @@ div{
     border-bottom: 2px;
 }
 
-.blue div{
+.blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
@@ -69,7 +69,7 @@ div{
     color: #c4c4c4;
 }
 
-.yellow div{
+.yellow {
     background-color: #Ffff00;
     text-align: right;
     margin-left: 50px;
@@ -81,7 +81,7 @@ div{
     color: #707070;
 }
 
-.green div{
+.green {
     background-color:#00EB00;
     text-align: left;
     margin-right: 50px;
