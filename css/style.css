@@ -7,7 +7,9 @@ body {
     width: 40%;
     height: 50px;
     padding: 2x;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     border: 1px solid black;
 }
 
@@ -47,7 +49,7 @@ div{
     line-height: 2;
 }
 
-.red{
+.red div{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -55,7 +57,7 @@ div{
     border-bottom: 2px;
 }
 
-.blue{
+.blue div{
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
@@ -67,7 +69,7 @@ div{
     color: #c4c4c4;
 }
 
-.yellow{
+.yellow div{
     background-color: #Ffff00;
     text-align: right;
     margin-left: 50px;
@@ -79,7 +81,7 @@ div{
     color: #707070;
 }
 
-.green{
+.green div{
     background-color:#00EB00;
     text-align: left;
     margin-right: 50px;
