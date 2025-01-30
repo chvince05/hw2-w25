@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial','Verdana';
+    background-color: #000000;
+    color: #Ffff;
+    border: solid 
+}
+
+h1{
+    font-family: 'Arial','Verdana';
+
+}
+
+h2{
+    font-family: 'Arial','Verdana';
+
+}
+
+img{
+    font-family: 'Arial','Verdana';
+
+}
+
+div{
+    font-family: 'Arial','Verdana';
+
+}
+
+.introduction{
+    font-family: 'Arial','Verdana';
+
+}
+
+.red{
+    background-color: #FF0000;
+
+
+}
+
+.blue{
+    background-color: #0000FF;
+}
+
+.yellow{
+    background-color: #Ffff00;
+}
+
+.green{
+    background-color:#00EB00;
+}
+
+footer{
+    font-family: 'Arial','Verdana';
+    
+
+}
+
+.footer p{
+    font-family: 'Arial','Verdana';
+
+}
